@@ -40,10 +40,10 @@ const Header = () => {
 						<a href="/blog">Blog</a>
 					</li>
 					<li>
-						<a href="/contact">Contact Us</a>
+						<a href="/contact">Contact Me</a>
 					</li>
 				</ul>
-				<div className="hamburger"  onClick={handleClick}>
+				<div className="hamburger" onClick={handleClick}>
 					{active ? (
 						<RiMenuUnfoldLine className="icon" />
 					) : (
