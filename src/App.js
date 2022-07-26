@@ -7,7 +7,7 @@ import Slider from "./components/Slider";
 import About from "./components/About";
 import Notification from "./components/Notification";
 import Service from "./components/Service";
-import Skill from "./Skill";
+import Skill from "./components/Skill";
 import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
 import Testimonial from "./components/Testimonial";

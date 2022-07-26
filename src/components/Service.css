@@ -1,0 +1,23 @@
+/** @format */
+
+.service {
+	/* margin: 10rem auto; */
+	align-items: center;
+	justify-content: center;
+	height: 40vh;
+	width: 100%;
+	background-image: url("../assets/images/16.jpg");
+	object-fit: cover;
+	overflow: hidden;
+}
+
+.service .container {
+	align-items: center;
+	justify-content: center;
+	margin: 1rem auto;
+}
+
+.service .center {
+	align-items: center;
+	justify-content: center;
+}
