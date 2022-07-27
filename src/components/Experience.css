@@ -1,0 +1,116 @@
+/** @format */
+
+.experience {
+	/* margin: 10rem auto; */
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100%;
+	background-image: url("../assets/images/19.jpg");
+	object-fit: cover;
+	overflow: hidden;
+	/* opacity: 0.9; */
+}
+
+.experience .top {
+	margin: 4rem auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 600px;
+}
+
+.experience .top h2 {
+	text-align: center;
+	font-size: 40px;
+	text-transform: capitalize;
+	color: rgb(131, 10, 10);
+	/* background-color: #fff; */
+	color: #202c2d;
+	color: #bc2e1e;
+	text-shadow: 0 1px 0px #788286, 1px 0 0px #9aa6ac, 1px 2px 1px #378ab4,
+		2px 1px 1px #b2bbbe, 2px 3px 2px #5a6164, 3px 2px 2px #a4aeb3,
+		3px 4px 2px #666c6e, 4px 3px 3px #99a1a5, 4px 5px 3px #7a8185,
+		5px 4px 2px #9ba6aa, 5px 6px 2px #868e92, 6px 5px 2px #afb5b8,
+		6px 7px 1px #686f72, 7px 6px 1px #828e94, 7px 8px 0px #378ab4,
+		8px 7px 0px #8f979b;
+}
+
+.experience .top p {
+	text-align: center;
+	padding: 10px;
+	font-weight: 500;
+	color: rgb(5, 5, 5);
+	box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+		rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+		rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.experience .top .bar {
+	width: 120px;
+	border-bottom: 6px solid var(--secondary);
+	border-radius: 5px;
+	left: 0;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 2rem;
+}
+
+.experience .circular-rating {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 4rem auto;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	gap: 30px;
+}
+
+.experience .skills {
+	text-align: right; /* Right-align text */
+	padding-top: 10px; /* Add top padding */
+	padding-bottom: 10px; /* Add bottom padding */
+	color: white; /* White text color */
+	align-items: center;
+	justify-content: center;
+}
+.experience .rating-bar {
+	background-color: #ddd;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+		rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+	width: 100%;
+}
+
+.html {
+	border: 1px solid grey;
+	width: 90%;
+	height: 10px;
+	background-color: #04aa6d;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+		rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.css {
+	width: 80%;
+	height: 10px;
+	border: 1px solid grey;
+	background-color: #2196f3;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+		rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.js {
+	width: 65%;
+	height: 10px;
+	border: 1px solid grey;
+	background-color: #f44336;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+		rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.php {
+	width: 60%;
+	height: 10px;
+	border: 1px solid grey;
+	background-color: #808080;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+		rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}

@@ -9,15 +9,26 @@
 	background-image: url("../assets/images/16.jpg");
 	object-fit: cover;
 	overflow: hidden;
+    opacity: 0.9;
 }
 
 .service .container {
-	align-items: center;
 	justify-content: center;
-	margin: 1rem auto;
+	padding: 5rem;
 }
 
 .service .center {
 	align-items: center;
 	justify-content: center;
+    gap: 15rem;
+	display: flex;
+    text-align: center;
+}
+
+.service .icon {
+	font-size: 70px;
+}
+
+.service .counter {
+	font-size: 80px;
 }

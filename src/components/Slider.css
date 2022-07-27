@@ -29,15 +29,15 @@
 }
 .slider span {
 	text-transform: capitalize;
-	font-size: 4rem;
+	font-size: 3rem;
 	font-weight: bold;
 	position: relative;
 }
 
 .slider span {
 	width: 500px;
-	border-top: 4px solid #fff;
-	border-bottom: 4px solid #fff;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
 	margin: 1rem 0;
 }
 

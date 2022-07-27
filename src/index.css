@@ -94,7 +94,7 @@ html {
 }
 
 .btn {
-	padding: 10px 32px;
+	padding: 8px 25px;
 	border: 1px solid;
 	background-color: transparent;
 	color: #fff;
@@ -125,7 +125,7 @@ input {
 }
 
 body {
-	/* background: var(--background); */
+	background: var(--background);
 	color: #fff;
 	font-family: "Poppins", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
 		Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
