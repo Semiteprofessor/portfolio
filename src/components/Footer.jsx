@@ -3,8 +3,20 @@
 import React from "react";
 import "./Footer.css";
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import $ from "jquery";
 
 const Footer = () => {
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 100) {
+			$("#scroll-up").fadeIn();
+		} else {
+			$("#scroll-up").fadeOut();
+		}
+	});
+	$("#scroll-up").click(function () {
+		$("html, body").animate({ scrollTop: 0 }, 800);
+		return false;
+	});
 	return (
 		<div className="footer">
 			<div className="container">
@@ -53,6 +65,10 @@ const Footer = () => {
 					<a href="/">
 						<FaGithub />
 					</a>
+				</div>
+
+				<div id="scroll-up">
+					<i className="fa fa-arrow-up" aria-hidden="true"></i>
 				</div>
 			</div>
 		</div>
