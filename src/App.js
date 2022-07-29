@@ -13,6 +13,7 @@ import Portfolio from "./components/Portfolio";
 import Testimonial from "./components/Testimonial";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
+import Counter from "./components/Counter";
 
 function App() {
 	return (
@@ -24,9 +25,10 @@ function App() {
 			<Service />
 			<Skill />
 			<Experience />
+			<Counter />
 			<Portfolio />
-			<Testimonial />
-			<Blog />
+			{/* <Testimonial /> */}
+			{/* <Blog /> */}
 			<Contact />
 			<Footer />
 		</div>

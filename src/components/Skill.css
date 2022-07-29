@@ -1,7 +1,7 @@
 /** @format */
 
 .skill {
-	height: 90vh;
+	height: 95vh;
 	width: 100%;
 	background-color: #d7f7f7;
 	clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%);
@@ -33,9 +33,10 @@
 	/* margin-bottom: 20px; */
 }
 
+
 .skill .top p{
     text-align: center;
-    color: rgb(116, 116, 116);
+    color: rgb(39, 39, 39);
     
 }
 
@@ -64,6 +65,10 @@
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+}
+
+.skill .bottom .wrapper h1{
+	margin-bottom: 10px;
 }
 
 .skill .bottom .icon {

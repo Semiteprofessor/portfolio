@@ -33,12 +33,12 @@ const Header = () => {
 					<li>
 						<a href="/portfolio">Portfolio</a>
 					</li>
-					<li>
+					{/* <li>
 						<a href="/testimonial">Testimonials</a>
 					</li>
 					<li>
 						<a href="/blog">Blog</a>
-					</li>
+					</li> */}
 					<li>
 						<a href="/contact">Contact Me</a>
 					</li>

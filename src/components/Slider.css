@@ -17,17 +17,15 @@
 }
 
 .slider .center {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
+	margin: 12rem;
 	text-align: center;
 }
 .slider p {
 	margin-bottom: 20px;
 }
-.slider span {
+
+.slider .name {
+	text-align: center;
 	text-transform: capitalize;
 	font-size: 3rem;
 	font-weight: bold;
@@ -71,13 +69,13 @@ h4 {
 
 .slider .bottom {
 	top: 480px;
-	position: absolute;
-	left: 260px;
-    transform: translate(-505, -50%)
+	margin: 12rem;
 }
 .slider .mouse {
 	font-size: 40px;
-	margin-top: 80px;
+	margin-top: 70px;
+	align-items: center;
+	justify-content: center;
     animation: animate 2s linear infinite;
 }
 
