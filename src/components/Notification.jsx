@@ -20,9 +20,11 @@ const Notification = () => {
 			</div>
 
 			<div className="toast-detail">
-				<p className="toast-message">Someone in new just bought</p>
+				<blockquote className="toast-message">
+					Taiwo is a dedicated developer. I can recommend him anywhere
+				</blockquote>
 
-				<p className="toast-title">Rose Gold Earrings</p>
+				<p className="toast-title">Taofeek Salau</p>
 
 				<p className="toast-meta">
 					<time datetime="PT2M">2 Minutes</time> ago
