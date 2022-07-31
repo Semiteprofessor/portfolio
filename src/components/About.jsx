@@ -123,10 +123,12 @@ const About = () => {
 										LinkedIn
 									</a>
 								</li>
-								<li>Twitter - @geocodec</li>
 								<li>
 									<a href="https://www.github.com/semiteprofessor">Github</a>
 								</li>
+								<li>Twitter - @geocodec</li>
+								<li>E-Mail - semiteprofessor@gmail.com</li>
+								<li>Phone - (+234) 806 9095 729</li>
 							</ul>
 						</div>
 					</div>
