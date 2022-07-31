@@ -16,7 +16,7 @@
 	transform: translateX(calc(-100% - 40px));
 	transition: 0.5s ease-in-out;
 	z-index: 5;
-	animation: slideInOut 10s ease-in-out infinite;
+	animation: slideInOut 20s ease-in-out infinite;
     background-color: var(--background);
 }
 

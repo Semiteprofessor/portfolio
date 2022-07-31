@@ -18,7 +18,7 @@ import Counter from "./components/Counter";
 function App() {
 	return (
 		<div>
-			<Notification />
+			{/* <Notification /> */}
 			<Header />
 			<Slider />
 			<About />
@@ -29,7 +29,7 @@ function App() {
 			<Portfolio />
 			{/* <Testimonial /> */}
 			{/* <Blog /> */}
-			<Contact />
+			{/* <Contact /> */}
 			<Footer />
 		</div>
 	);

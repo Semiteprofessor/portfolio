@@ -132,7 +132,7 @@ code {
 		monospace;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
 	h1 {
 		font-size: 2.1rem;
 		line-height: 1.2rem;

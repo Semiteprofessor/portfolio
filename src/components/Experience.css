@@ -12,18 +12,24 @@
 	/* opacity: 0.9; */
 }
 
+.experience .container {
+	display: flex;
+	flex-direction: column;
+}
+
 .experience .top {
 	margin: 3rem auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 600px;
+	/* width: 100%; */
 }
 
 .experience .top h2 {
 	text-align: center;
 	font-size: 35px;
+	margin-bottom: 10px;
 	text-transform: capitalize;
 	color: rgb(131, 10, 10);
 	/* background-color: #fff; */
@@ -45,7 +51,8 @@
 	opacity: 0.9;
 	border-radius: 12px 32px;
 	color: rgb(5, 5, 5);
-	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+		rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .experience .top .bar {
@@ -59,17 +66,17 @@
 }
 
 .experience .middle {
-	margin: 4rem auto;
+	margin: 1rem auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 600px;
 }
 
 .experience .middle h2 {
 	text-align: center;
 	font-size: 35px;
+	margin-bottom: 10px;
 	text-transform: capitalize;
 	color: rgb(131, 10, 10);
 	/* background-color: #fff; */
@@ -307,4 +314,10 @@
 	background-color: #0b4421;
 	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
 		rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+@media screen and (max-width: 480px) {
+	.experience {
+		height: 110vh;
+	}
 }

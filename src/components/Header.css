@@ -36,7 +36,6 @@
 	font-size: 30px;
 }
 
-
 .nav-menu {
 	position: absolute;
 	flex-direction: column-reverse;
@@ -69,7 +68,7 @@
 	color: #fff;
 }
 
-.nav-menu li{
+.nav-menu li {
 	text-align: center;
 	height: 65px;
 	margin-right: 50px;
@@ -77,4 +76,31 @@
 	margin-bottom: 10px;
 }
 
+@media screen and (max-width: 480px) {
+	.hamburger {
+		display: flex;
+	}
 
+	.nav-menu {
+		position: absolute;
+		flex-direction: column;
+		justify-content: start;
+		top: 80px;
+		right: 100%;
+		width: 50%;
+		height: 100vh;
+		transition: 0.5s ease;
+		z-index: 2;
+		background: var(--background);
+		box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	}
+
+	.nav-menu.active {
+		right: 0;
+	}
+	.nav-menu li {
+		padding: 1rem;
+		width: 100%;
+		box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	}
+}

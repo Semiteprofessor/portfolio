@@ -1,4 +1,4 @@
-$content-width: calc(40vw - 84px);
+$content-width: calc(40vw -64px);
 $margin: 20px;
 $spacing: 20px;
 $bdrs: 6px;
@@ -28,7 +28,7 @@ $color6: #aff1b6;
     margin: $spacing 0;
     border-radius: $bdrs;
     align-self: center;
-    width: 50vw;
+    // width: 60vw;
 
     &:nth-child(2n + 1) {
       flex-direction: row-reverse;
@@ -225,12 +225,15 @@ $color6: #aff1b6;
   }
 }
 
-@media (max-width: 786px) {
+@media screen and (max-width: 480px) {
   .timeline__event {
     flex-direction: column;
     align-self: center;
     &__content {
       width: 100%;
+    }
+    &__event{
+      width: 10vw;
     }
 
     &__icon {
@@ -247,6 +250,10 @@ $color6: #aff1b6;
     &__date {
       border-radius: 0;
       padding: $spacing;
+    }
+
+    &__event{
+      width: 50vw;
     }
 
     &:nth-child(2n + 1) {

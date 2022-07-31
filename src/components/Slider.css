@@ -1,9 +1,7 @@
 /** @format */
 
-.slider .container {
+.slider {
 	/* margin: 10rem auto; */
-	align-items: center;
-	justify-content: center;
 	height: 90vh;
 	width: 100%;
 	background-image: url("../assets/images/7.jpg");
@@ -12,16 +10,23 @@
 	-webkit-transition: 0.3s ease-in-out;
 	transition: 0.3s ease-in-out;
 }
+.slider .container {
+	align-items: center;
+	justify-content: center;
+}
+
 .slider .container:hover {
 	opacity: 1;
 }
 
 .slider .center {
-	margin: 12rem;
+	margin: 6rem;
 	text-align: center;
+	align-items: center;
+	justify-content: center;
 }
 .slider p {
-	margin-bottom: 20px;
+	margin: 3rem 0;
 }
 
 .slider .name {
@@ -36,7 +41,7 @@
 	width: 500px;
 	border-top: 3px solid #fff;
 	border-bottom: 3px solid #fff;
-	margin: 1rem 0;
+	margin: 1rem auto;
 }
 
 .slider:hover .image {
@@ -52,7 +57,7 @@
 }
 
 .slider button {
-	margin: 20px;
+	margin: 20px auto;
 	text-transform: capitalize;
 }
 
@@ -76,7 +81,7 @@ h4 {
 	margin-top: 70px;
 	align-items: center;
 	justify-content: center;
-    animation: animate 2s linear infinite;
+	animation: animate 2s linear infinite;
 }
 
 div.overlay {
@@ -102,5 +107,11 @@ div.content {
 	}
 	100% {
 		transform: translate(-50%, -50%) translateY(-30px) rotate(0deg);
+	}
+}
+
+@media screen and (max-width: 480) {
+	.slider .container .center {
+		width: 100%;
 	}
 }

@@ -9,7 +9,7 @@
 	background-image: url("../assets/images/16.jpg");
 	object-fit: cover;
 	overflow: hidden;
-    opacity: 0.9;
+	opacity: 0.9;
 }
 
 .service .container {
@@ -20,9 +20,9 @@
 .service .center {
 	align-items: center;
 	justify-content: center;
-    gap: 15rem;
+	gap: 15rem;
 	display: flex;
-    text-align: center;
+	text-align: center;
 }
 
 .service .icon {
@@ -31,4 +31,11 @@
 
 .service .counter {
 	font-size: 80px;
+}
+
+@media screen and (max-width: 480px) {
+	.service .container .center {
+		display: flex;
+		flex-direction: column;
+	}
 }

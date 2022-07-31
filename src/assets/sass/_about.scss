@@ -129,20 +129,20 @@ $accent: #112b03;
 	padding: 0;
 }
 
-@media (max-width: 540px) {
-	.sidebar-menu {
-		font-size: 1em;
-		font-weight: 400;
-	}
-	.sub-menu {
-		font-weight: 400;
-	}
-	.sidebar-1 {
-		margin: 0;
-		width: 100%;
-	}
-	.sidebar-menu:after,
-	.sidebar-menu:before {
-		top: calc(23.5px - 12.5px);
-	}
-}
+// @media (max-width: 540px) {
+// 	.sidebar-menu {
+// 		font-size: 1em;
+// 		font-weight: 400;
+// 	}
+// 	.sub-menu {
+// 		font-weight: 400;
+// 	}
+// 	.sidebar-1 {
+// 		margin: 0;
+// 		width: 100%;
+// 	}
+// 	.sidebar-menu:after,
+// 	.sidebar-menu:before {
+// 		top: calc(23.5px - 12.5px);
+// 	}
+// }
