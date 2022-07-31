@@ -1,7 +1,7 @@
 /** @format */
 
 .portfolio {
-	height: 90vh;
+	height: 80vh;
 	width: 100%;
 	align-items: center;
 	background: linear-gradient(coral, rebeccapurple);
@@ -29,7 +29,7 @@
 }
 
 .portfolio .top {
-	margin: 4rem;
+	margin: 4rem auto;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -55,9 +55,11 @@
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	align-items: center;
-	justify-content: center;
-	width: 90%;
-	grid-gap: 3rem;
+	justify-content: space-evenly;
+	overflow: hidden;
+	width: 100%;
+	margin: 1rem ;
+	/* grid-gap: 1rem; */
 }
 .portfolio .card {
 	width: 350px;
@@ -80,8 +82,8 @@
 }
 
 .portfolio .logo img {
-	height: 275px;
-	width: 400px;
+	width: 350px;
+	height: 215px;
 	position: relative;
 	background-size: 50px 50px, 100px 50px, 50px 50px, 200px 100px, 50px 50px,
 		100px 50px, 50px 50px;
@@ -214,7 +216,7 @@
 
 @media screen and (max-width: 480px) {
 	.portfolio {
-		height: 320vh;
+		height: 280vh;
 	}
 	.portfolio .top h2 {
 		font-size: 22px;

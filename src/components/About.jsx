@@ -88,10 +88,11 @@ const About = () => {
 						<div class="sub-menu">
 							<ul>
 								<li>
-									Monotonectally iterate B2C solutions for interactive
-									solutions. Uniquely synergize client-based channels vis-a-vis
-									robust meta-services. Uniquely leverage other's
-									multidisciplinary web-readiness after optimal.
+									I am a Software Developer who specialises in the design,
+									testing and implementation of software using the JavaScript
+									programming language. JavaScript should not to be confused
+									with Java - despite sharing similar names, the two are
+									distinctly different programming languages.
 								</li>
 							</ul>
 						</div>
@@ -103,38 +104,39 @@ const About = () => {
 						<div class="sub-menu">
 							<ul>
 								<li>
-									Efficiently formulate cross-unit partnerships whereas an
-									expanded array of infrastructures. Intrinsicly whiteboard
-									extensible markets before just.
+									With a strong JavaScript foundation, I have become an expert
+									in both front-end and back-end web development and mobile app
+									development. Undoubtedly, becoming a JavaScript developer has
+									given a lot of potentials.
 								</li>
 							</ul>
 						</div>
 					</div>
 					<div class="sidebar-1">
 						<div class="sidebar-menu">
-							How Ca You Contact Me?<div class="expand"></div>
+							How Can You Contact Me?<div class="expand"></div>
 						</div>
 						<div class="sub-menu">
 							<ul>
 								<li>
-									Proactively empower cutting-edge web services via virtual
-									methodologies. Assertively foster cross-unit benefits via
-									premier mindshare. Proactively target customized channels and
-									team building catalysts.
+									<a href="https://www.linkedin.com/in/taiwo-olapade-2a4672105">
+										LinkedIn
+									</a>
+								</li>
+								<li>Twitter - @geocodec</li>
+								<li>
+									<a href="https://www.github.com/semiteprofessor">Github</a>
 								</li>
 							</ul>
 						</div>
 					</div>
 					<div class="sidebar-1">
 						<div class="sidebar-menu">
-							Wha Is My Hobbies?<div class="expand"></div>
+							What Is My Hobbies?<div class="expand"></div>
 						</div>
 						<div class="sub-menu">
 							<ul>
-								<li>
-									Compellingly evisculate standardized metrics with 2.0 value.
-									Professionally impact magnetic technologies without.
-								</li>
+								<li>Making reasearch and Lerning something new</li>
 							</ul>
 						</div>
 					</div>

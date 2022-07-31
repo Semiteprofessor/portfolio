@@ -29,7 +29,7 @@
 @media screen and (max-width: 480px) {
 
 	.counter{
-		height: 300vh;
+		height: 320vh;
 	}
 	.counter .container h2 {
 		text-align: center;

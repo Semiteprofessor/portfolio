@@ -26,7 +26,7 @@
 	justify-content: center;
 }
 .slider p {
-	margin: 3rem 0;
+	margin: 3rem auto;
 }
 
 .slider .name {
@@ -34,7 +34,7 @@
 	text-transform: capitalize;
 	font-size: 3rem;
 	font-weight: bold;
-	position: relative;
+	margin: 1rem auto;
 }
 
 .slider span {
@@ -56,9 +56,12 @@
 	padding: 16px 32px;
 }
 
-.slider button {
-	margin: 20px auto;
-	text-transform: capitalize;
+.slider .button {
+	margin: 3rem auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 3rem;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap");
@@ -113,5 +116,10 @@ div.content {
 @media screen and (max-width: 480) {
 	.slider .container .center {
 		width: 100%;
+	}
+
+	.slider .button{
+		display: flex;
+		flex-direction: column;
 	}
 }
