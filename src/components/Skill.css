@@ -65,10 +65,10 @@
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	padding: 12px 22px;
+	padding: 5px;
 	/* margin: 0.4rem; */
-	width: 22rem;
-	height: 22rem;
+	width: 26rem;
+	height: 20rem;
 	border-radius: 24px;
 	border: 1px solid #d3d3d3;
 	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
@@ -96,7 +96,7 @@
 
 @media screen and (max-width: 480px) {
 	.skill {
-		height: 320vh;
+		height: 330vh;
 		width: 100%;
 		background-color: #d7f7f7;
 		clip-path: polygon(0 0, 100% 2%, 100% 100%, 0% 98%);
@@ -120,6 +120,10 @@
 		display: flex;
 		flex-direction: column;
 		width: 100%;
+	}
+
+	.skill .bottom .wrapper{
+		height: 22rem;
 	}
 
 	.skill .bottom .wrapper h1 {

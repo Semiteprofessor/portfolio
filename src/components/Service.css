@@ -6,7 +6,8 @@
 	justify-content: center;
 	height: 40vh;
 	width: 100%;
-	background-image: url("../assets/images/16.jpg");
+	background-image: url("../assets/images/1.jpg");
+	background-size: cover;
 	object-fit: cover;
 	overflow: hidden;
 	opacity: 0.9;

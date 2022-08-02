@@ -29,7 +29,7 @@
 }
 
 .portfolio .top {
-	margin: 4rem auto;
+	margin: 2rem auto;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -58,7 +58,7 @@
 	justify-content: space-evenly;
 	overflow: hidden;
 	width: 100%;
-	margin: 1rem ;
+	/* margin: 1rem ; */
 	/* grid-gap: 1rem; */
 }
 .portfolio .card {

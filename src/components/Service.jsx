@@ -8,28 +8,28 @@ import { DiGitBranch } from "react-icons/di";
 import $ from "jquery";
 import "./Service.css";
 
-// $(".counter").each(function () {
-// 	var $this = $(this),
-// 		countTo = $this.attr("data-count");
+$(".counter").each(function () {
+	var $this = $(this),
+		countTo = $this.attr("data-count");
 
-// 	$({ countNum: $this.text() }).animate(
-// 		{
-// 			countNum: countTo,
-// 		},
+	$({ countNum: $this.text() }).animate(
+		{
+			countNum: countTo,
+		},
 
-// 		{
-// 			duration: 8000,
-// 			easing: "linear",
-// 			step: function () {
-// 				$this.text(Math.floor(this.countNum));
-// 			},
-// 			complete: function () {
-// 				$this.text(this.countNum);
-// 				//alert('finished');
-// 			},
-// 		},
-// 	);
-// });
+		{
+			duration: 8000,
+			easing: "linear",
+			step: function () {
+				$this.text(Math.floor(this.countNum));
+			},
+			complete: function () {
+				$this.text(this.countNum);
+				//alert('finished');
+			},
+		},
+	);
+});
 
 const Service = () => {
 	const lines = 175087;
@@ -45,11 +45,9 @@ const Service = () => {
 							<HiCode />
 						</div>
 						<div className="counter" data-count="">
-							{lines}
+						175087
 						</div>
-						<div>
-							<span>Line of Codes</span>
-						</div>
+						<p>Line of Codes</p>
 					</div>
 					<div>
 						<div className="icon">

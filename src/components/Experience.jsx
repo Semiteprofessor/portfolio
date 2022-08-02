@@ -17,8 +17,7 @@ const Experience = () => {
 						<br /> - User Interface/User Experience <br /> - Web Design Ability
 						to work in a team <br /> - Understanding of different platforms{" "}
 						<br /> - High leve proficiency in database <br /> - Analytical mind
-						and the ability to multitask <br /> - Project Management Tools
-						Strong Communication
+						and the ability to multitask 
 					</p>
 				</div>
 				<div className="center"></div>
