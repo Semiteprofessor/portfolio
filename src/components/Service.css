@@ -4,7 +4,7 @@
 	/* margin: 10rem auto; */
 	align-items: center;
 	justify-content: center;
-	height: 40vh;
+	height: 50vh;
 	width: 100%;
 	background-image: url("../assets/images/1.jpg");
 	background-size: cover;
@@ -34,11 +34,11 @@
 	font-size: 80px;
 }
 
-.service .words{
+.service .words {
 	font-size: 20px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 	.service .container .center {
 		display: flex;
 		flex-direction: column;

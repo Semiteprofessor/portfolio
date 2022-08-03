@@ -94,7 +94,7 @@
 	color: #fff;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 	.skill {
 		height: 320vh;
 		width: 100%;

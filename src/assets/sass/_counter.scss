@@ -227,9 +227,9 @@ $color6: #aff1b6;
 	}
 }
 
-@media screen and (max-width: 480px) {
-	.timeline{
-		&__event{
+@media screen and (max-width: 768px) {
+	.timeline {
+		&__event {
 			width: 85vw;
 		}
 	}

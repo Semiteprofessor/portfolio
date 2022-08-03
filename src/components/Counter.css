@@ -25,10 +25,8 @@
 	/* text-align: justify; */
 }
 
-
-@media screen and (max-width: 480px) {
-
-	.counter{
+@media screen and (max-width: 768px) {
+	.counter {
 		height: 320vh;
 	}
 	.counter .container h2 {
@@ -39,5 +37,4 @@
 	/* .counter .timeline__event__date{
 		width: 200px;
 	} */
-
 }

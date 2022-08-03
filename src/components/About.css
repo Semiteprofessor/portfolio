@@ -162,7 +162,7 @@ section:target h1 {
 	}
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 	.about .container {
 		display: flex;
 		flex-direction: column;

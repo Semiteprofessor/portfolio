@@ -77,7 +77,7 @@ h4 {
 }
 
 .slider .bottom {
-	top: 480px;
+	top: 768px;
 	margin: 12rem;
 }
 .slider .mouse {
@@ -114,12 +114,12 @@ div.content {
 	}
 }
 
-@media screen and (max-width: 480) {
+@media screen and (max-width: 768) {
 	.slider .container .center {
 		width: 100%;
 	}
 
-	.slider .button{
+	.slider .button {
 		display: flex;
 		flex-direction: column;
 	}
