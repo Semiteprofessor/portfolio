@@ -1,6 +1,7 @@
 /** @format */
 
 import "./App.css";
+import { BrowserRouter as Router } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Slider from "./components/Slider";
@@ -17,21 +18,23 @@ import Counter from "./components/Counter";
 
 function App() {
 	return (
-		<div>
-			<Notification />
-			<Header />
-			<Slider />
-			<About />
-			<Service />
-			<Skill />
-			<Experience />
-			<Counter />
-			<Portfolio />
-			{/* <Testimonial /> */}
-			{/* <Blog /> */}
-			<Contact />
-			<Footer />
-		</div>
+		<Router>
+			<div>
+				<Notification />
+				<Header />
+				<Slider />
+				<About />
+				<Service />
+				<Skill />
+				<Experience />
+				<Counter />
+				<Portfolio />
+				{/* <Testimonial /> */}
+				{/* <Blog /> */}
+				<Contact />
+				<Footer />
+			</div>
+		</Router>
 	);
 }
 

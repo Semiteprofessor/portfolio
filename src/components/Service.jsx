@@ -5,76 +5,62 @@ import React from "react";
 import { HiCode } from "react-icons/hi";
 import { FaRegSmile, FaCoffee, FaCode } from "react-icons/fa";
 import { DiGitBranch } from "react-icons/di";
-import $ from "jquery";
+import AnimatedNumber from "react-animated-number";
 import "./Service.css";
-
-$(".counter").each(function () {
-	var $this = $(this),
-		countTo = $this.attr("data-count");
-
-	$({ countNum: $this.text() }).animate(
-		{
-			countNum: countTo,
-		},
-
-		{
-			duration: 8000,
-			easing: "linear",
-			step: function () {
-				$this.text(Math.floor(this.countNum));
-			},
-			complete: function () {
-				$this.text(this.countNum);
-				//alert('finished');
-			},
-		},
-	);
-});
 
 const Service = () => {
 	const lines = 175087;
 	const project = 38;
 	const coffee = 150;
 	const customer = 18;
+
 	return (
-		<div className="service">
+		<div className="service" id="service">
 			<div className="container">
 				<div className="center">
-					<div>
+					<div classname="first">
 						<div className="icon">
 							<HiCode />
 						</div>
-						<div className="counter" data-count="">
-						175087
+						<div id="counter">
+							<AnimatedNumber value={lines} duration={1000} />
 						</div>
-						<p>Line of Codes</p>
+						<div className="words">
+							<p>Line of Codes</p>
+						</div>
 					</div>
-					<div>
+					<div classname="second">
 						<div className="icon">
 							<DiGitBranch />
 						</div>
-						<div className="counter" data-count="">
-							{project}
+						<div id="counter">
+							<AnimatedNumber value={project} duration={1000} />
 						</div>
-						<p>Projects Done</p>
+						<div className="words">
+							<p>Projects Done</p>
+						</div>
 					</div>
-					<div>
+					<div classname="third">
 						<div className="icon">
 							<FaCoffee />
 						</div>
-						<div className="counter" data-count="">
-							{coffee}
+						<div id="counter">
+							<AnimatedNumber value={coffee} duration={1000} />
 						</div>
-						<p>Cups of Cofees</p>
+						<div className="words">
+							<p>Cups of Cofees</p>
+						</div>
 					</div>
-					<div>
+					<div classname="fourth">
 						<div className="icon">
 							<FaRegSmile />
 						</div>
-						<div className="counter" data-count="">
-							{customer}
+						<div id="counter">
+							<AnimatedNumber value={customer} duration={1000} />
 						</div>
-						<p>Satisfied Customers</p>
+						<div className="words">
+							<p>Satisfied Customers</p>
+						</div>
 					</div>
 				</div>
 			</div>

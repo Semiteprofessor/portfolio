@@ -4,6 +4,8 @@ import React from "react";
 import "./Footer.css";
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import $ from "jquery";
+import { Link } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 
 const Footer = () => {
 	$(window).scroll(function () {
@@ -18,7 +20,7 @@ const Footer = () => {
 		return false;
 	});
 	return (
-		<div className="footer">
+		<div className="footer" id="footer">
 			<div className="container">
 				<div className="col col-1">
 					<h1>
@@ -67,7 +69,7 @@ const Footer = () => {
 					</a>
 				</div>
 
-				<div id="scroll-up">
+				<div id="scroll-up" onClick={() => scroll.scrollToTop()}>
 					<i className="fa fa-arrow-up" aria-hidden="true"></i>
 				</div>
 			</div>

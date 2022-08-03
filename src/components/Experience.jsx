@@ -5,7 +5,7 @@ import "./Experience.css";
 
 const Experience = () => {
 	return (
-		<div className="experience">
+		<div className="experience" id="experience">
 			<div className="container">
 				{/* Top */}
 				<div className="top">

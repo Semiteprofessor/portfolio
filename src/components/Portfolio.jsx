@@ -5,7 +5,7 @@ import "./Portfolio.css";
 
 const Portfolio = () => {
 	return (
-		<div className="portfolio">
+		<div className="portfolio" id="portfolio">
 			<div className="container">
 				{/* Top */}
 				<div className="top">
@@ -89,7 +89,9 @@ const Portfolio = () => {
 						</div>
 						<div class="back">
 							<h1>
-								<a href="https://doctor-assistant.herokuapp.com">Hospital Management</a>
+								<a href="https://doctor-assistant.herokuapp.com">
+									Hospital Management
+								</a>
 							</h1>
 						</div>
 					</div>

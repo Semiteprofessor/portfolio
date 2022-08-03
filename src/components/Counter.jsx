@@ -5,7 +5,7 @@ import "./Counter.css";
 
 const Counter = () => {
 	return (
-		<div className="counter">
+		<div className="counter" id="counter">
 			<div className="container">
 				<h2>Work experiences</h2>
 				<span className="bar"></span>

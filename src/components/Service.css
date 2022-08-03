@@ -30,8 +30,12 @@
 	font-size: 70px;
 }
 
-.service .counter {
+.service #counter {
 	font-size: 80px;
+}
+
+.service .words{
+	font-size: 20px;
 }
 
 @media screen and (max-width: 480px) {

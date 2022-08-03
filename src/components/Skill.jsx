@@ -9,7 +9,7 @@ import "./Skill.css";
 
 const Skill = () => {
 	return (
-		<div className="skill">
+		<div className="skill" id="skill">
 			<div className="container">
 				{/* Top */}
 				<div className="top">
